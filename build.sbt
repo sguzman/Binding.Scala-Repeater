@@ -2,7 +2,7 @@ enablePlugins(ScalaJSPlugin)
 scalaJSUseMainModuleInitializer := true
 
 /** Name of project */
-name := "Binding.scalaSpinner"
+name := "Binding.scalaRepeater"
 
 /** Organization */
 organization := "com.github.sguzman"
