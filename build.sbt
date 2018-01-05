@@ -32,8 +32,10 @@ resolvers ++= Seq(
 /** Source Dependencies */
 libraryDependencies ++= Seq(
   "org.scala-js" %%% "scalajs-dom" % "0.9.1",
-  "com.github.lukajcb" %%% "rxscala-js" % "0.15.2"
+  "com.thoughtworks.binding" %%% "dom" % "11.0.1"
 )
+
+addCompilerPlugin("org.scalamacros" % "paradise" % "2.1.0" cross CrossVersion.full)
 
 /** Make sure to fork on run */
 fork in run := true
